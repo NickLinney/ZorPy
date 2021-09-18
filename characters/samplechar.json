@@ -1,0 +1,21 @@
+{
+    "type": "character",
+    "control": "player",
+    "name": "samplechar",
+    "species": "human",
+    "class": "Barbarian",
+    "abilities": [
+        {
+            "strength": 16,
+            "dexterity": 12,
+            "intelligence": 10
+        }
+    ],
+    "skills": [
+        {
+            "athletics": 3,
+            "perception": 3,
+            "survival": 3
+        }
+    ]
+}
