@@ -1,9 +1,9 @@
-from character import loadCharacter, characterDictionaryAppend, characterGetAll
+import character
 
 # Game function.
 def game():
     print("Game started.")
-    new_character = characterDictionaryAppend("samplechar")
+    new_character = character.characterDictionaryAppend("samplechar")
 
     print("Press Enter to view your abilities...")
     keyPress = input()
