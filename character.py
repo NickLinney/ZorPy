@@ -14,7 +14,12 @@ def characterDictionaryAppend(characterName):
     print("Added character to dictionary.\n")
     return characters[characterName]
 
-# Get the values of the dictionary
+# Get the values of the dictionary.
 def characterGetAll():
     print("Getting all characters.")
     return characters.items()
+
+# Get the character's abilities and their values.
+def getAbilities(characterName):
+    for ability in characterName["abilities"]:
+        print(ability)
